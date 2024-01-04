@@ -1,0 +1,36 @@
+footer {
+    background-color: #222;
+    color: white;
+    padding: 3em;
+    text-align: center;
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    list-style-type: none;
+}
+
+.item {
+    margin: 0 1em;
+}
+
+.item:hover {
+    color: orange;
+}
+
+.item svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: orange;
+}
