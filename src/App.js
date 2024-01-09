@@ -8,6 +8,7 @@ import Container from './components/layouts/Container';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import Projects from './components/pages/Projects';
+import Project from './components/pages/Project';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path='/company' Component={Company} />
           <Route path='/projects' Component={Projects} />
           <Route path='/newProject' Component={NewProject} />
+          <Route path='/project/:id' Component={Project} />
+          
         </Routes>
       </Container>
 
