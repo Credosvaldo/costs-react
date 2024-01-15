@@ -12,15 +12,22 @@
       "id": 1
     },
     {
-      "nome": "Segundo Projeto",
-      "orcamento": "6879879864",
+      "nome": "Vinicius Rezende ",
+      "orcamento": "10000000",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 2
+      "cost": 10000,
+      "services": [
+        {
+          "name": "Pedro",
+          "cost": "10000",
+          "description": "desenvolvedor",
+          "id": 1
+        }
+      ],
+      "id": 3
     }
   ],
   "categories": [
